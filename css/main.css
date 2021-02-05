@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Candara, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+a {
+    font-family: DokChampa, sans-serif;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #DC0012;
+}
+
+h1 {
+    font-family: DokChampa,sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+}
+
+p {
+    font-family: Candara, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/****************************
+Header
+ ***************************/
+
+header {
+    background-color: #000000;
+}
+
+.logo-barca {
+    width: 150px;
+    text-align: center;
+    margin: auto;
+
+}
+
+/******************************
+Main Accueil
+ *****************************/
+
+.page-accueil .center {
+    width: 411px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.page-accueil .intro {
+    font-family: Candara, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+/*********************************
+Footer
+ ********************************/
+
+footer nav ul {
+    list-style-type: none;
+}
+
+footer nav ul li {
+    display: inline-block;
+}
+
+footer nav ul li img {
+    height: 64px;
+    padding: 10px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.liste-reseaux {
+    text-align: center;
+}
+
