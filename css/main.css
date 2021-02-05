@@ -33,7 +33,9 @@ h1 {
     font-weight: 400;
     font-size: 48px;
     text-align: center;
-    color: linear-gradient(to right, #2B0CD1, #DC0012);
+    background: -webkit-linear-gradient(top, #2B0CD1, #DC0012);
+    -webkit-background-clip: text;
+    color:transparent;
 }
 
 p {
@@ -99,5 +101,24 @@ footer nav ul li img {
     text-align: center;
 }
 
+/*********************************
+Main page histoire
+**********************************/
+
+.page-histoire {
+    text-align: center;
+}
+
+.page-histoire .celebration-messi {
+    text-align: right;
+    font-style: italic;
+    float: right;
+    font-weight: bold;
+}
+
+.page-histoire .celebration-messi-img {
+    width: 300px;
+    display: inline-block;
+}
 
 
