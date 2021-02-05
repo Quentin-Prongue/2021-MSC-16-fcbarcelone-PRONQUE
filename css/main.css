@@ -33,6 +33,7 @@ h1 {
     font-weight: 400;
     font-size: 48px;
     text-align: center;
+    color: linear-gradient(to right, #2B0CD1, #DC0012);
 }
 
 p {
