@@ -56,6 +56,7 @@ Header
 
 header {
     background-color: #000000;
+    width: 100%;
 }
 
 .logo-barca {
@@ -105,6 +106,28 @@ footer nav ul li img {
 
 .liste-reseaux {
     text-align: center;
+}
+
+/*********************************
+Main page menu
+ ********************************/
+
+.page-menu main {
+    height: 100%;
+    width: 100%;
+}
+
+.page-menu main div {
+    background-color: #2B0CD1;
+    width: 100%;
+}
+
+.page-menu main div:active {
+    background-color: #DC0012;
+}
+
+.page-menu main div h1 {
+    color: #ffffff;
 }
 
 /*********************************
