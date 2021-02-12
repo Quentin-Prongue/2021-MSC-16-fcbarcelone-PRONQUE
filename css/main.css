@@ -49,6 +49,7 @@ p {
     font-size: 20px;
 }
 
+
 /****************************
 Header
  ***************************/
@@ -141,3 +142,24 @@ Main page palmarès
     font-weight: normal;
 }
 
+
+/*****************************************
+Main page joueurs
+ ***************************************/
+
+.page-joueurs {
+    text-align: center;
+}
+
+.page-joueurs main img {
+    width: 500px
+}
+
+.page-joueurs video {
+    width: 500px;
+}
+
+.page-joueurs .video-presentation {
+    text-align: center;
+    display: block;
+}
