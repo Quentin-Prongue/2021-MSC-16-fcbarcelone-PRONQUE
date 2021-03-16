@@ -1,3 +1,7 @@
+/****************************
+GENERAL
+ ***************************/
+
 * {
     box-sizing: border-box;
 }
@@ -25,9 +29,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: #DC0012;
-}
 
 h1 {
     font-family: DokChampa,sans-serif;
@@ -41,6 +42,7 @@ h1 {
 
 h2 {
     text-align: center;
+    font-size: 30px;
 }
 
 p {
@@ -168,7 +170,6 @@ MAIN PAGE HISTOIRE
     padding: 2px 2px;
 }
 
-
 .page-histoire figure {
     width: 300px;
 }
@@ -177,6 +178,10 @@ MAIN PAGE HISTOIRE
     font-weight: bold;
     text-align: justify;
     font-size: 20px;
+}
+
+.page-histoire a {
+    font-size: 30px;
 }
 
 .page-histoire .celebration-messi-img {
@@ -218,10 +223,7 @@ MAIN PAGE JOUEURS
 
 .page-joueurs h3 {
     font-weight: normal;
-}
-
-.page-joueurs h2 {
-    font-size: 35px;
+    font-size: 20px;
 }
 
 .page-joueurs strong {
@@ -306,4 +308,5 @@ MAIN PAGE BOUTIQUE
 .page-boutique .boutique p {
     color: #ffffff;
     text-align: center;
+    font-weight: bold;
 }
