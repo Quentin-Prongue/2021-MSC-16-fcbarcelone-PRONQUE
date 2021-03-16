@@ -19,26 +19,40 @@
     <!-- Icone de base -->
     <link rel="shorcut icon" type="image/png" href="favicon.ico">
 
-
 </head>
 <!-- Corps du document -->
 <body class="page-joueurs">
 <!-- Entête de la page -->
 <header>
-    <div class="logo-barca">
-        <a href="index.html">
-            <img src="img/Logo_Barca_Noir.jpg" alt="Logo du Barça"/>
-        </a>
+    <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">Accueil</a>
+        <a href="histoire.html">Histoire</a>
+        <a href="palmares.html">Palmarès</a>
+        <a class="Actuel" href="joueurs.html">Joueurs</a>
+        <a href="boutique.html">Boutique</a>
     </div>
-
-
+    <button class="openbtn" onclick="openNav()">
+        <img src="img/menu.png" alt="Icone de menu">
+    </button>
+    <script>
+        function openNav() {
+            document.getElementById("mySidepanel").style.width = "12em";
+        }
+        function closeNav() {
+            document.getElementById("mySidepanel").style.width = "0";
+        }
+    </script>
+    </nav>
+    <div class="logo-barca">
+        <img src="img/Logo_Barca_Noir.jpg" alt="Logo du Barça"/>
+    </div>
 </header>
 <main>
 
     <h1>Joueurs</h1>
 
     <h2>Gardiens</h2>
-
 
         <h3><a href="https://fr.wikipedia.org/wiki/Marc-Andr%C3%A9_ter_Stegen">
             <span>1</span> Marc-André <strong>Ter Stegen</strong></a></h3>

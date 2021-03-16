@@ -29,7 +29,6 @@ a {
     text-decoration: none;
 }
 
-
 h1 {
     font-family: DokChampa,sans-serif;
     font-weight: 400;
@@ -51,7 +50,6 @@ p {
     font-size: 20px;
 }
 
-
 /****************************
 HEADER
  ***************************/
@@ -65,7 +63,59 @@ header {
     width: 150px;
     text-align: center;
     margin: auto;
+}
 
+/*Menu déroulant*/
+.menu {
+    width: 2em;
+    margin: 1em;
+    position: fixed;
+}
+.sidepanel  {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 20em;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+.openbtn {
+    position: fixed;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgba(169, 169, 169, 0);
+    border: rgba(169, 169, 169, 0) 1px solid;
+    color: white;
+    padding: 10px 15px;
+}
+
+.openbtn img {
+    margin-top: 10px;
+    width: 50px;
+}
+
+header a.Actuel {
+    font-weight: bold;
+    color: #DC0012;
 }
 
 /******************************
@@ -78,14 +128,13 @@ MAIN ACCUEIL
 
 .page-accueil .center {
     text-align: center;
-
 }
 
 .page-accueil .intro {
     font-family: Candara, sans-serif;
     font-weight: 700;
     font-size: 48px;
-    text-align: justify;
+    text-align: left;
 }
 
 .page-accueil main img {
@@ -256,12 +305,11 @@ MAIN PAGE JOUEURS
     margin-top: 150px;
 }
 
-
 /*****************************************
 MAIN PAGE BOUTIQUE
  ***************************************/
 
-.page-boutique {
+.page-boutique footer {
     text-align: center;
 }
 
@@ -273,7 +321,6 @@ MAIN PAGE BOUTIQUE
 .page-boutique table {
     border: solid .1em #000000;
     margin: 0 auto;
-
 }
 
 .page-boutique td, th {
