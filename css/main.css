@@ -51,7 +51,7 @@ p {
 
 
 /****************************
-Header
+HEADER
  ***************************/
 
 header {
@@ -67,13 +67,15 @@ header {
 }
 
 /******************************
-Main Accueil
+MAIN ACCUEIL
  *****************************/
 
+.page-accueil main {
+    margin: auto 5%;
+}
+
 .page-accueil .center {
-    width: 411px;
     text-align: center;
-    margin: auto;
 
 }
 
@@ -81,11 +83,25 @@ Main Accueil
     font-family: Candara, sans-serif;
     font-weight: 700;
     font-size: 48px;
+    text-align: justify;
+}
+
+.page-accueil main img {
+    background:
+            linear-gradient(
+                    to right, #2B0CD1,#DC0012
+            );
+    background-size: 100% 5px;
+    padding: 2px 2px;
 }
 
 /*********************************
-Footer
+FOOTER
  ********************************/
+
+footer {
+    text-align: center;
+}
 
 footer nav ul {
     list-style-type: none;
@@ -109,8 +125,12 @@ footer nav ul li img {
 }
 
 /*********************************
-Main page menu
+MAIN PAGE MENU
  ********************************/
+
+.page-menu {
+    max-height: 505px;
+}
 
 .page-menu main {
     height: 100%;
@@ -131,18 +151,32 @@ Main page menu
 }
 
 /*********************************
-Main page histoire
+MAIN PAGE HISTOIRE
 **********************************/
 
-.page-histoire {
-    text-align: center;
+.page-histoire main {
+    text-align: justify;
+    margin: auto 5%;
 }
 
-.page-histoire .celebration-messi {
-    text-align: right;
-    font-style: italic;
-    float: right;
+.page-histoire main img {
+    background:
+            linear-gradient(
+                    to right, #2B0CD1,#DC0012
+            );
+    background-size: 100% 5px;
+    padding: 2px 2px;
+}
+
+
+.page-histoire figure {
+    width: 300px;
+}
+
+.page-histoire figcaption {
     font-weight: bold;
+    text-align: justify;
+    font-size: 20px;
 }
 
 .page-histoire .celebration-messi-img {
@@ -151,8 +185,13 @@ Main page histoire
 }
 
 /***************************************
-Main page palmarès
+MAIN PAGE PALMARES
  **************************************/
+
+.page-palmares main {
+    margin: auto 5%;
+}
+
 .page-palmares h3 {
     font-weight: bold;
 }
@@ -165,41 +204,73 @@ Main page palmarès
     font-weight: normal;
 }
 
-
 /*****************************************
-Main page joueurs
+MAIN PAGE JOUEURS
  ***************************************/
 
 .page-joueurs {
     text-align: center;
 }
 
+.page-joueurs main {
+    margin: auto 5%;
+}
+
+.page-joueurs h3 {
+    font-weight: normal;
+}
+
+.page-joueurs h2 {
+    font-size: 35px;
+}
+
+.page-joueurs strong {
+    font-weight: bold;
+}
+
+.page-joueurs h3 span {
+    color: #DC0012;
+    font-weight: bold;
+}
+
 .page-joueurs main img {
-    width: 500px
+    width: 500px;
+    background:
+            linear-gradient(
+                    to right, #2B0CD1,#DC0012
+            );
+    background-size: 100% 5px;
+    padding: 2px 2px;
 }
 
 .page-joueurs video {
-    width: 500px;
+    width: 350px;
+    margin-right: 5%;
 }
 
 .page-joueurs .video-presentation {
     text-align: center;
     display: block;
+    margin-top: 150px;
 }
 
 
 /*****************************************
-Main page Boutique
+MAIN PAGE BOUTIQUE
  ***************************************/
 
 .page-boutique {
+    text-align: center;
+}
+
+.page-boutique main {
+    margin: auto 5%;
     text-align: justify;
 }
 
 .page-boutique table {
     border: solid .1em #000000;
     margin: 0 auto;
-
 
 }
 
