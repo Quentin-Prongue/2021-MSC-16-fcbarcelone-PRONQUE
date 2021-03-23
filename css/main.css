@@ -57,6 +57,8 @@ HEADER
 header {
     background-color: #000000;
     width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 .logo-barca {
@@ -262,12 +264,13 @@ MAIN PAGE PALMARES
 MAIN PAGE JOUEURS
  ***************************************/
 
-.page-joueurs {
+.page-joueurs main {
+    margin: auto 5%;
     text-align: center;
 }
 
-.page-joueurs main {
-    margin: auto 5%;
+.page-joueurs footer {
+    text-align: center;
 }
 
 .page-joueurs h3 {
@@ -321,6 +324,7 @@ MAIN PAGE BOUTIQUE
 .page-boutique table {
     border: solid .1em #000000;
     margin: 0 auto;
+    border-collapse: collapse;
 }
 
 .page-boutique td, th {
