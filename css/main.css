@@ -263,8 +263,16 @@ MAIN PAGE PALMARES
     font-weight: bold;
 }
 
+.page-palmares ul {
+    padding-left: 10px;
+}
+
 .page-palmares .liste-2 {
     font-weight: normal;
+}
+
+.page-palmares .joueurs {
+    font-weight: bold;
 }
 
 /*****************************************
